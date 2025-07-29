@@ -33,40 +33,5 @@ Course-Add-App/
 ├── routes/web.php
 ├── .env
 └── README.md
----
-##  Getting Started
-
-Follow these instructions to set up the project on your local machine.
-
-### Prerequisites
-
-- PHP >= 8.1
-- Composer
-- MySQL or any supported database
-- Node.js and npm (for front-end assets, optional)
-
-###  Installation
-
-```bash
-# 1. Clone the repository
-git clone https://github.com/billal297222/Course-Add-App.git
-cd softvence-course
-
-# 2. Install PHP dependencies
-composer install
-
-# 3. Copy and configure your environment
-cp .env.example .env
-php artisan key:generate
-# Edit .env and set DB credentials
-
-# 4. Run migrations
-php artisan migrate
-
-# 5. Serve the project
-php artisan serve
-
-#Run URL
-Visit: http://localhost:8000/courses/create
 
 
