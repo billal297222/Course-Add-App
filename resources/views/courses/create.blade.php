@@ -51,7 +51,7 @@
             <div class="col-md-4">
                 <label class="form-label">Course Price</label>
                 <input name="price" type="number" class="form-control" value="{{ old('price') }}">
-                <small class="text-muted">If the course price is $0, the user can enroll for free.</small>
+                <small class="text-muted">If the course price is 0 tk, the user can enroll for free.</small>
             </div>
         </div>
 
