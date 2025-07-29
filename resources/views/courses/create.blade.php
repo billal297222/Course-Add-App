@@ -60,11 +60,10 @@
             <input type="hidden" name="description" id="description">
         </div>
 
-        <div class="mb-4">
-            <label class="form-label">Feature Image</label>
-            <div class="dropzone" onclick="document.getElementById('imageUpload').click();">Drag and drop a file here or click</div>
-            <input type="file" name="feature_image" class="d-none" id="imageUpload">
-        </div>
+         <div class="mb-3">
+        <label>Feature Image</label>
+        <input type="file" name="feature_image" class="form-control" />
+    </div>
 
         <div class="accordion mb-4" id="modules"></div>
 

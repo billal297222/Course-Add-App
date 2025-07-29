@@ -4,3 +4,14 @@ body { background-color: #f0f4f8; }
 .accordion-button:not(.collapsed) { background-color: #e9f0f7; }
 .dropzone { border: 2px dashed #ced4da; padding: 2rem; text-align: center; color: #6c757d; cursor: pointer; }
  .remove-btn { float: right; cursor: pointer; color: red; font-size: 1.2rem; border: none; background: none; }
+
+ .back-link {
+    display: inline-block;
+    margin-bottom: 1rem;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.back-link:hover {
+    text-decoration: none; 
+}

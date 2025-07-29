@@ -56,7 +56,7 @@
                 <label class="form-label">Video URL</label>
                 <input type="text" class="form-control mb-2" name="modules[${moduleId}][contents][${index}][video_url]">
                 <label class="form-label">Video Length</label>
-                <input type="text" class="form-control" name="modules[${moduleId}][contents][${index}][video_length]">
+                <input type="text" class="form-control" name="modules[${moduleId}][contents][${index}][video_length]" placeholder="HH:MM:SS">
             </div>`;
         contentsDiv.insertAdjacentHTML('beforeend', html);
     };
